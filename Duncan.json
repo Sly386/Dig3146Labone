@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var obj1 = { 
+  "first_name" : "Duncan",
+  "last_name" : "Hauser",
+  "displayHandle" : "W1ldwon",
+  "age" : 23
+  "active" : true,
+  "posts" : [ 
+    {
+      "description" : "post1",
+      "post1" : "Ate breakfast today, on a mountain."
+    },
+    {
+      "desciption" : "post2",
+      "post2" : "Went snowboarding!"
+    }
+  ],;
+var myJSON = JSON.stringify(obj1);
+window.location = "demo_json.php?x=" + myJSON;
+</script>
+
+</body>
+</html>
